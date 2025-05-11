@@ -1,26 +1,23 @@
-# CreditSea Loan Manager
+# CreditSea Loan Manager Backend
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-here/deploy-status)](https://loan-app-creditsea.netlify.app/)
-
-A modern, user-friendly loan management dashboard for admins and staff, built with React. Easily track applications, manage borrowers, monitor repayments, and generate reports-all in one place.
+A robust backend API for the CreditSea Loan Manager application, built with Node.js, Express, and MongoDB.  
+This backend powers the [CreditSea Loan Manager dashboard](https://loan-app-creditsea.netlify.app/), enabling loan application management, borrower tracking, repayments, and more.
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live App
 
-[View the deployed app →](https://loan-app-creditsea.netlify.app/)
-
-## 📦 Repository
-
-[GitHub: farazsfa007/loan-manager-frontend](https://github.com/farazsfa007/loan-manager-frontend)
+**Frontend:** [https://loan-app-creditsea.netlify.app/](https://loan-app-creditsea.netlify.app/)  
+**Frontend Repo:** [farazsfa007/loan-manager-frontend](https://github.com/farazsfa007/loan-manager-frontend)
 
 ---
 
 ## Table of Contents
 
 - [Features](#features)
-- [Screenshots](#screenshots)
+- [API Overview](#api-overview)
 - [Getting Started](#getting-started)
+- [Environment Variables](#environment-variables)
 - [Available Scripts](#available-scripts)
 - [Tech Stack](#tech-stack)
 - [Contributing](#contributing)
@@ -30,19 +27,23 @@ A modern, user-friendly loan management dashboard for admins and staff, built wi
 
 ## Features
 
-- 📊 **Dashboard:** At-a-glance statistics for admins (active users, borrowers, cash disbursed, and more)
-- 📝 **Loan Applications:** Submit, review, and manage loan applications
-- 👤 **Borrowers:** View and manage borrower profiles
-- 💸 **Repayments:** Track payments and outstanding balances
-- 📈 **Reports:** Generate and export key financial and user reports
-- ⚙️ **Settings:** Configure loan parameters, access controls, and more
-- 🔒 **Authentication:** Secure login for authorized users
+- 📦 **RESTful API** for all core loan management operations
+- 📝 **Loan Applications:** Create, update, and retrieve loan applications
+- 👤 **Borrowers:** Manage borrower data
+- 💸 **Repayments:** Track and update repayments
+- 📊 **Dashboard Stats:** Aggregate statistics for admin dashboard
+- 🔒 **Authentication:** (Pluggable, if implemented)
+- ⚙️ **Configurable:** Environment-based configuration
 
 ---
 
-## Screenshots
+## API Overview
 
-> _Add screenshots or a GIF of your application here for visual appeal!_
+| Endpoint                        | Method | Description                              |
+|----------------------------------|--------|------------------------------------------|
+| `/api/applications`              | POST   | Submit a new loan application
+
+> **Note:** See the codebase for detailed routes and controller logic.
 
 ---
 
@@ -50,43 +51,41 @@ A modern, user-friendly loan management dashboard for admins and staff, built wi
 
 ### 1. **Clone the repository**
 
----
-
-### git clone https://github.com/farazsfa007/loan-manager-frontend.git
-### cd loan-manager-frontend
-
----
-
 
 ### 2. **Install dependencies**
 
 
-### 3. **Start the development server**
+### 3. **Set up environment variables**
+
+Create a `.env` file in the root directory (see [Environment Variables](#environment-variables)).
+
+### 4. **Start the server**
 
 
-Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+The API will run by default on [http://localhost:5000](http://localhost:5000).
+
+---
+
+## Environment Variables
+
+Create a `.env` file in the root directory with the following example content:
+
 
 ---
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-- `npm start` - Runs the app in development mode.
-- `npm test` - Launches the test runner.
-- `npm run build` - Builds the app for production.
-- `npm run eject` - Ejects the app (not recommended unless necessary).
-
-See [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) for more.
+- `npm start` - Start the server in production mode
+- `npm run dev` - Start the server with nodemon for development (if nodemon is installed)
+- `npm test` - Run tests (if implemented)
 
 ---
 
 ## Tech Stack
 
-- **Frontend:** React, React Router, Axios
-- **UI:** CSS3 (custom), [React Icons](https://react-icons.github.io/react-icons/)
-- **Backend API:** Node.js, Express, MongoDB (see backend repo)
-- **Deployment:** Netlify
+- **Backend:** Node.js, Express
+- **Database:** MongoDB, Mongoose
+- **Other:** dotenv, cors, (optionally JWT for authentication)
 
 ---
 
@@ -104,15 +103,16 @@ Contributions, issues, and feature requests are welcome!
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for details.
 
 ---
 
 ## Acknowledgements
 
-- [Create React App](https://github.com/facebook/create-react-app)
-- [React Icons](https://react-icons.github.io/react-icons/)
-- [Netlify](https://www.netlify.com/)
+- [Express](https://expressjs.com/)
+- [MongoDB](https://mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 
 ---
 
