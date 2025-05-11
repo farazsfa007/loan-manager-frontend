@@ -1,0 +1,156 @@
+.admin-layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #0A512F;
+}
+
+.nav-heading-admin{
+    color: #0A512F;
+}
+
+.nav-text{
+    color: #0A512F;
+}
+.admin-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #ffff;
+    color: white;
+}
+
+.admin-nav-heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.admin-end-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.admin-image-end {
+    width: 30px;
+    height: 30px;
+}
+
+.admin-main-dashboard {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+
+.admin-sidebar {
+    width: 200px;
+    background-color: #042606;
+    color: white;
+    padding: 20px;
+    height: 180%;
+}
+
+.admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-sidebar li {
+    display: flex;
+  align-items: center;
+  padding: 0.85rem;
+  cursor: pointer;
+  font-size: 1.08rem;
+  transition: background 0.2s;
+  border-left: 4px solid transparent;
+}
+
+.admin-sidebar li:hover,
+.admin-sidebar li.active {
+  background: #254d36;
+  border-left: 4px solid #8bc34a;
+}
+
+.admin-page-content {
+    flex: 1;
+    padding: 30px;
+    background-color: #EFEFEF;
+}
+
+
+.sidebar-icon {
+  font-size: 1.4rem;
+  margin-right: 1.2rem;
+  color: #8bc34a;
+  min-width: 28px;
+  text-align: center;
+}
+
+.sidebar-label {
+  flex: 1;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+/* stats cards */
+
+.stats-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.stats-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(60,60,60,0.12);
+  min-width: 270px;
+  max-width: 290px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.stats-icon {
+  background: #195c37;
+  width: 80px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-icon img {
+  width: 38px;
+  height: 38px;
+}
+
+.stats-info {
+  padding: 0 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.stats-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #195c37;
+  margin-bottom: 2px;
+}
+
+.stats-label {
+  font-size: 1.08rem;
+  color: #222;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}

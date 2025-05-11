@@ -1,0 +1,40 @@
+.home-container{
+    background-color: bisque;
+    height: 100vh;
+    background-size: cover;
+    padding: 5px;
+}
+.profile-container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 40px 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    text-align: center;
+}
+    
+.profile-list {
+    list-style: none;
+    padding: 0;
+    margin: 32px 0 0 0;
+}
+    
+.profile-list li {
+    margin: 16px 0;
+}
+    
+.profile-link {
+    display: inline-block;
+    padding: 12px 32px;
+    font-size: 1.1rem;
+    color: #fff;
+    background: #007bff;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.profile-link:hover {
+    background: #0056b3;
+}
