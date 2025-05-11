@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# CreditSea Loan Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-badge-here/deploy-status)](https://loan-app-creditsea.netlify.app/)
+
+A modern, user-friendly loan management dashboard for admins and staff, built with React. Easily track applications, manage borrowers, monitor repayments, and generate reports-all in one place.
+
+---
+
+## 🌐 Live Demo
+
+[View the deployed app →](https://loan-app-creditsea.netlify.app/)
+
+## 📦 Repository
+
+[GitHub: farazsfa007/loan-manager-frontend](https://github.com/farazsfa007/loan-manager-frontend)
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Tech Stack](#tech-stack)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Features
+
+- 📊 **Dashboard:** At-a-glance statistics for admins (active users, borrowers, cash disbursed, and more)
+- 📝 **Loan Applications:** Submit, review, and manage loan applications
+- 👤 **Borrowers:** View and manage borrower profiles
+- 💸 **Repayments:** Track payments and outstanding balances
+- 📈 **Reports:** Generate and export key financial and user reports
+- ⚙️ **Settings:** Configure loan parameters, access controls, and more
+- 🔒 **Authentication:** Secure login for authorized users
+
+---
+
+## Screenshots
+
+> _Add screenshots or a GIF of your application here for visual appeal!_
+
+---
+
+## Getting Started
+
+### 1. **Clone the repository**
+
+---
+
+### git clone https://github.com/farazsfa007/loan-manager-frontend.git
+### cd loan-manager-frontend
+
+---
+
+
+### 2. **Install dependencies**
+
+
+### 3. **Start the development server**
+
+
+Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+---
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start` - Runs the app in development mode.
+- `npm test` - Launches the test runner.
+- `npm run build` - Builds the app for production.
+- `npm run eject` - Ejects the app (not recommended unless necessary).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+See [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) for more.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React, React Router, Axios
+- **UI:** CSS3 (custom), [React Icons](https://react-icons.github.io/react-icons/)
+- **Backend API:** Node.js, Express, MongoDB (see backend repo)
+- **Deployment:** Netlify
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions, issues, and feature requests are welcome!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgements
 
-## Learn More
+- [Create React App](https://github.com/facebook/create-react-app)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Netlify](https://www.netlify.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Last updated: May 11, 2025_
